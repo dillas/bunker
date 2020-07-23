@@ -1,0 +1,11 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "src",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "clean": "rimraf build .tmp",
+    "watch": "webpack-dev-server"
+  }
+}

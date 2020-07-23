@@ -1,0 +1,8 @@
+{
+  "name": "@bunker42/config",
+  "version": "0.1.0",
+  "dependencies": {
+    "@bunker42/core-common": "^0.1.0",
+    "lodash": "^4.17.19"
+  }
+}

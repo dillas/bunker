@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "clean": "rimraf build .tmp",
+    "start": "node --harmony build",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@babel/register": "^7.10.5"
+  },
+  "dependencies": {
+    "i18next": "^19.6.2",
+    "sqlite3": "^5.0.0"
+  }
+}

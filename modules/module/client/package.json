@@ -1,0 +1,8 @@
+{
+  "name": "@bunker42/module-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bunker42/module-common": "^0.1.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@bunker42/database-server",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@bunker42/core-common": "^0.1.0",
+    "glob": "^7.1.6"
+  }
+}

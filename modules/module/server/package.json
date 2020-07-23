@@ -1,0 +1,8 @@
+{
+  "name": "@bunker42/module-server",
+  "version": "1.0.0",
+  "prefab": "modules/module/server",
+  "dependencies": {
+    "@bunker42/module-common": "0.1.0"
+  }
+}
